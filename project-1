@@ -1,0 +1,13 @@
+#include <stdio.h>
+int square(int a);
+
+void main(){
+    int c;
+
+    c= square(4);
+    printf("Your square is %d",c);
+}
+int square(int a){
+    
+    return a*a;
+}
